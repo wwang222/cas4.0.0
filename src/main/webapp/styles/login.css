@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font: 12px/1.5em "微软雅黑", "Microsoft Yahei", "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
+  text-align: center;
+  background: url(../images/login_bg.png) repeat; }
+
+.cf {
+  *zoom: 1; }
+  .cf:before, .cf:after {
+    content: " ";
+    display: table; }
+  .cf:after {
+    clear: both; }
+
+.font-small {
+  font-size: 14px; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.btn {
+  display: block;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  line-height: 22px;
+  padding: 9px 10px;
+  height: 40px;
+  font-size: 16px; }
+  .btn-primary {
+    background-color: #2ea1d8;
+    color: #fff; }
+    .btn-primary:hover {
+      background-color: #2c96c7; }
+
+.login-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: left; }
+
+.login-hd {
+  font-size: 16px;
+  height: 90px;
+  line-height: 90px;
+  position: relative;
+  border-bottom: 1px solid #d0d0d0;
+  box-shadow: 0 1px 0 #fff; }
+  .login-hd .login-logo {
+    background: url(../images/login_logo.jpg) no-repeat 0 50%;
+    color: #555;
+    font-size: 28px;
+    padding-left: 95px; }
+  .login-hd .login-menu a {
+    color: #999;
+    text-decoration: none; }
+    .login-hd .login-menu a:hover {
+      text-decoration: underline; }
+  .login-hd .login-menu .divider {
+    color: #ccc;
+    text-shadow: 1px 0 0 #fff;
+    margin: 0 5px; }
+
+.login-bd {
+  background: url(../images/login_bg.png) no-repeat 50% 26px;
+  padding: 0 28px;
+  margin: 30px 0 40px; }
+
+.login-ft {
+  color: #aaa;
+  text-align: center;
+  line-height: 22px;
+  border-top: 1px solid #fff;
+  box-shadow: 0 -1px 0 #d0d0d0;
+  padding: 25px 0; }
+
+.login-form {
+  font-size: 16px;
+  width: 360px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); }
+  .login-form-hd {
+    background-image: linear-gradient(#40474c, #33383d);
+    color: #fff;
+    line-height: 60px;
+    height: 60px;
+    padding: 0 22px; }
+  .login-form-bd {
+    padding: 28px 40px; }
+    .login-form-bd a {
+      color: #666;
+      text-decoration: none; }
+      .login-form-bd a:hover {
+        text-decoration: underline; }
+    .login-form-bd .q {
+      background-color: #fff;
+      border: 1px solid #dddddb;
+      color: #999;
+      font-size: 16px;
+      line-height: 22px;
+      padding: 8px 10px;
+      display: block;
+      width: 100%;
+      box-sizing: border-box; }
+      .login-form-bd .q-sm {
+        width: 125px; }
+    .login-form-bd .row {
+      clear: both;
+      margin-bottom: 20px; }
+    .login-form-bd .tip {
+      font-size: 14px;
+      line-height: 20px;
+      color: #aaa; }
+      .login-form-bd .tip strong {
+        color: #666;
+        font-weight: bold; }
+
+/*# sourceMappingURL=login.css.map */
