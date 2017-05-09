@@ -5,7 +5,7 @@
 ### 基于CAS4.0.0版本开箱即用的单点登录服务器
 部署：
 
-1. 一个配置ssl的[tomcat](https://www.baidu.com).
+1. 一个配置ssl的[tomcat](http://download.csdn.net/detail/ii_bat/9837496).
 2. 下载源码并导入ide.
 3. 修改[deployerConfigContext.xml]()中的数据库连接.
     `
