@@ -137,9 +137,9 @@
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName"><value>com.mysql.jdbc.Driver</value></property>
-        <property name="url"><value>jdbc:mysql://172.16.20.70:3306/igxepay</value></property>
-        <property name="username"><value>igxepay</value></property>
-        <property name="password"><value>igxepay2017</value></property>
+        <property name="url"><value>jdbc:mysql://127.0.0.1:3306/admin</value></property>
+        <property name="username"><value>root</value></property>
+        <property name="password"><value>123456</value></property>
     </bean>
 
     <bean id="saltSource" class="com.sso.security.SaltSourceDetail"></bean>
